@@ -31,9 +31,9 @@ html, body {
     font-size: 12vw;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) and (orientation: portrait) {
 #myname {
-     font-size: 100px;
+     font-size: 80px;
      width:50px;
   }
 }
